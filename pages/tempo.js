@@ -1,6 +1,6 @@
 function Tempo(props) {
     const dynamicDate = new Date();
-    const dynamicDateString = dynamicDate.toGMTString();
+    const dynamicDateString = dynamicDate.toUTCString();
 
     return (
         <div>
